@@ -1,0 +1,627 @@
+##########FLIGHTS################
+select_adult;xpath://input[@id='adult_economy-0']
+pricesort_onward;xpath:(//label[contains(@class,'result_label price')])[1]
+reset_filters;xpath://span[contains(text(),'Reset all')]
+logout;xpath://button[contains(text(),'Logout')]
+wrong_credentials_msg;xpath://p[contains(text(),'Wrong username or password')]
+Filter_depature;xpath://span[text()='
+Expiry_2022;xpath:(//option[text()='2022'])[1]
+modify_search_textfields;xpath://input[contains(@class,'large_input_02')]
+select_from_segment;xpath://span[contains(text(),'
+gmail_signin_different_account;id:account-chooser-link
+passenger_surname_Unavailable;classname:oops_message
+gst_cancel_button;xpath://button[contains(text(),'Cancel')]
+mouseover_addons;xpath://a[contains(@class,'mdl-tabs__tab is-confirm')][2]
+header_edit;xpath:(//span[@class='done_bg'])[2]
+gst_done_button;xpath://button[contains(text(),'DONE')]
+Make_Payment;xpath:(//span[text()='Make Payment'])[1]
+submit_button;xpath://button[contains(@class,'submit_btn mdl-button mdl-js-button')]
+facebook_email;id:email_input_container
+Currency_USD;xpath://li[contains(text(),'USD ($)')]
+calender_green_price;xpath://li[@class='green_ct']
+Expiry_year;xpath://select[@id='expiryYearCreditCard']
+srp_price;xpath:(//h4/span)[1]
+email;name:email
+airlinePane;xpath:(//h6[contains(@class,'booking_header_accordio')])[5]
+subscribe_email;id:subscribeEmail
+Mstr;xpath:(//li[contains(text(),'Mstr')])[1]
+phone_number_editbox_Unavailable;classname:oops_message
+#################HOME PAGE TABS CHECK#################
+TabVerify_DepartureCity;xpath://input[contains(@placeholder,'Select Departure City')]
+TabVerify_DestinationCity;xpath://input[contains(@placeholder,'Select Destination City')]
+TabVerify_flightsTravleDate;xpath://input[contains(@name,'travelDate')]
+TabVerify_flightsReturnDate;xpath://input[contains(@name,'returnDate')]
+Hotels_TabVerify;xpath:(//a[contains(@class,'mdl-tabs__tab')])[2]
+Hotels_InputCityBox;xpath://input[contains(@placeholder,'Enter City or Hotel Name')]
+Hotels_City_select;xpath:(//span[contains(@class,'popularCityList')])[1]
+CheckInDate_Hotels;xpath://input[contains(@placeholder,'Check-In Date')]
+Verify_HolidaysTab;xpath:(//a[contains(@class,'mdl-tabs__tab')])[3]
+Verify_FlightsTab;xpath:(//a[contains(@class,'mdl-tabs__tab')])[1]
+#################SEARCH RESULT PAGE##################
+loader;css:div.load_indicator.fetched
+d-o-bcalender;xpath://div[@aria-label='day-
+dateChangeInfo;xpath://div[contains(@id,'fare_breakup_popup_id')]
+returntrip_arrival;xpath:(//label[contains(text(),'Arriv')])[2]
+Filter_return;id:return_
+for_confirmation_button;xpath://button[contains(text(),'Continue')]                
+baggageInfo;xpath://a[contains(text(),'Baggage')]
+sign_in_popUp;xpath://div[contains(@class,'content_popup_app ')]
+sign_up_link;xpath://span[contains(text(),'Sign Up')]
+my_goomo_icon;class:icon_my_goomo
+pricepriceAdultSlider;xpath:(//div[contains(@class,'slider')])[1]
+Passenger_Name;id:passengers[
+child_dd;id:adult_economy-1
+look_for_other_flights;xpath:(//button[contains(text(),'LOOK FOR OTHER FLIGHTS')])[1]
+#########look_for_other_flights;xpath://div[contains(@id,'repricing_error_modal')]
+Oman Air;xpath://span[contains(text()='Oman Air')]
+modify_search_return_date;name:returnDate
+phone_number_editbox;xpath://input[@id='phone_number']
+add_address_tab;xpath:(//div[contains(@class,'gst-option')])[1]
+infant_c;xpath:(//li[contains(text(),'"
+D-O-B;xpath://input[contains(@placeholder,'YYYY')]
+child_select_dd;xpath://li[@class='mdl-menu__item' and contains(text(),'
+price;class:one_way_price
+Expiry_Month;xpath:(//option[text()='Dec (12)'])[1]
+checkbox;xpath://label[contains(@for,'airline_')]
+edit_text;xpath://span[@class='done_bg'])[2]
+meal_header;xpath://p[contains(@class,'journey_segment')]
+returntrip_departure;xpath:(//label[contains(text(),'Depart')])[2]
+srp_fare_breakup;xpath://a[contains(text(),'Fare Breakup')]
+arrival_sort;xpath://label[contains(@class,'arrival)]
+continue_with_facebook;xpath://a[contains(text(),'Facebook Login')]
+facebook_icon;class:facebook_social
+city;id:city
+intrt_prices;xpath://div[@class='result_flight__price shift_down_40']/span[1]
+flight_details;xpath://a[contains(text(),'Flight details')]
+Show_flights_atSamePrice;xpath:(//div[contains(text(),'flight at same price')])[1]
+flight_details_click;xpath:(//li[contains(@class,'result_flight')])[
+flight_details_clickIntRT;xpath:(//li[contains(@class,'result_flight--return')])[
+pax_button;xpath:(//div[@class='autosuggest_container undefined'])[5]
+modify_search_toCity;xpath:(//input[contains(@class,'large_input_02')])[2]
+select_date;xpath://div[@aria-label='day-
+gmail_password;id:Passwd
+gmail_icon;class:google_social
+srp_fare_rules_oneway;xpath:(//div[3]/a)[1]
+confirmation_block;xpath://div[contains(@class,'confirmation_detail')]
+total_amount;classname:promo_amount
+SpiceJet;xpath://span[contains(text()='Spicejet')]
+rt_prices;classname:one_way_price
+price_sort_ow;xpath://div[@class='result_flight__price shift_down_40']/span
+middle_menu;xpath://li[contains(@class,'mdl-menu')]
+sentlink_confirmation_popup;xpath://div[@class='modal_body']
+depSort_onward;xpath:(//label[contains(@class,'departure_time')])[1]
+Flight_Review_ContinuebuttonUnavailable;classname:opps_message
+gst_company_name;xpath://input[@id='company_name']
+duration_time;class:duration
+flight_selection_radio;xpath://span[@class='mdl-radio__outer-circle']
+email_id_traveller;xpath://input[@id='contact_details.email']
+gst_state_name;xpath://input[@id='state']
+con_button;xpath://button[contains(text(),'CONTINUE')]
+Make_Payment_Unavailable;classname:oops_message
+Expiry_Month_Unavailable;classname:oops_message
+IndiGo;xpath://span[contains(text(),'IndiGo')]
+departure_time_roundtrip;xpath://span[contains(@class,'float_left')]
+calender_yellow_price;xpath://li[@class='yellow_ct']
+passenger_title;id:passengers[
+airlines_sort;xpath://label[contains(@class,'airline')]
+tabbar;xpath://div[@id='products_tabbar']
+Modify_Close;xpath://div[@class='modify_search_panel_cancel_btn']
+model_popup;class:modal-header
+calender_yellow_date;xpath:(//div[@class='react-datepicker__day mid_calendar'])[1]
+airlinSort_ret;xpath:(//label[contains(@class,'airline_holder')])[2]
+pricesort_return;xpath:(//label[contains(@class,'result_label price')])[2]
+return;xpath://button[contains(text(),'Return')]
+gstidentification_tab;xpath://span[contains(text(),'ADD GST IDENTIFICATION NUMBER')]
+postalcode_field;id:postal_code
+personal_info;xpath://input[@placeholder='Personal Info']
+spicejet_filter;xpath://span[contains(text(),'Spicejet')]
+Indigo_filter;xpath://span[contains(text(),'IndiGo')]
+gst_close_button;xpath://i[@class='closebtn gm gm-keyboard_arrow_left cursor_pointer'][1]
+email_trav;xpath://input[@type='email']
+##################SEARCH PAGE####################
+return_date;xpath://input[contains(@placeholder,'Return Date')]
+all_Airline_tab;xpath://li[contains(text(),'Carrier')]
+pop_up_okay;xpath://button[contains(text(),'Okay')]
+model_query_button;xpath://button[contains(@class,'send-query')]
+gst_value;xpath://input[@value='Sikkim']
+confirmation_heading;xpath://h3[contains(text(),'Your Booking is Confirmed')]
+destination_city;xpath://input[contains(@placeholder,'Destination')] 
+email_input_box;xpath://input[@id='email']
+onwardtrip_departure;xpath:(//label[contains(text(),'Depart')])[1]
+gmail_allow;id:submit_approve_access
+select_traveller_info;xpath://div[contains(@class,'ignore-react-onclickoutside')]
+onward_airlinesort;xpath:(//label[contains(text(),'Airline')])[1]
+departure_sort;xpath://label[contains(@class,'departure')]
+srp_fare_rules;xpath://a[contains(text(),'Fare Rules')]
+searchIn_modify;xpath://button[contains(text(),'SEARCH')]
+srp_baggage_rules;xpath://a[contains(text(),'Baggage Rules')]
+Credit_card_number;id:creditCardNumber
+payment_failed;class:some_blah_blah
+modl_city;xpath://input[@id='modal_city']
+firstFlighpriceEnabled;xpath://a[contains(text(),'Flight Details')]
+gmail_next;id:next
+gst_email_id;xpath://input[@id='email']
+adult_dd;id:adult_economy-0
+Flight_details_link;xpath:(//a[@class='result_flight__details_button'])[
+enquiry_id;id:requestId
+pick_city;xpath:(//section/ul[@class='react-autosuggest__suggestions-list sections_container']/li)[1]
+Mstr2;xpath:(//li[contains(text(),'Mstr')])[3]
+sprt_tab_flights;xpath://span[contains(@class,'flight_name_short')]
+coupon_field;xpath://input[@id='code']
+Cancel_webengage;xpath://div[contains(@class,'close tablecell')]
+arrival_time;xpath://div[contains(@class,'result_flight__arrival')]
+goomo_pwd_text;xpath://span[contains(text(),'password')]
+flight_book_button;xpath://button[contains(text(),'Book')]
+flight_combination_error;xpath://span[@class='error_span float_right']
+cancellation_oneway;xpath://a[text()='Cancellation']
+overlapped_message;css:span[class^='error_span']
+signup_link;xpath://a[contains(text(),'Sign Up')]
+departure_onwards;xpath:(//label[contains(text(),'Departure')])[1]
+email;id:email
+forgot_password;xpath://a[contains(text(),'Forgot')]
+remove_address;xpath://div[contains(text(),'Remove')]
+select_infant;xpath://input[@id='adult_economy-2']
+flightsTab;xpath:(//a[contains(@class,'mdl-tabs__t')])[1]
+departure_return;xpath:(//label[contains(@class,'Departure')])[2]
+enter_comment;xpath://section[@class='main_form_wrapper float_left white_bg mdl-shadow--2dp']//textarea[@id='comment']
+send_me_link;xpath://button[contains(text(),'SEND ME A LINK')]
+Exception;xpath://button[@class='some exception']
+flight_details_rt;xpath:(//a[@class='result_flight__details_button'])
+flight_details_rt_domestic;xpath:(//a[@class='flight_details_link gm_font_small'])
+gmail_email;id:Email
+h6;xpath:(//h6)[
+meal_passenger;xpath://input[contains(@id,'passengers[
+gst_street_address;xpath://input[@id='street_address']
+CurrencyDropDown;xpath://input[@id='filterCurrency']
+Passenger_Name_Unavailable;classname:oops_message
+business;xpath://span[contains(text(),'Business')]
+select_alliance;xpath://li[contains(text(),'Alliance')]
+modl_name;xpath://input[@id='modal_name']
+gmail_login;xpath://a[text()='Continue With Google']
+depatureTimePane;xpath:(//h6[contains(@class,'booking_header_accordio')])[3]
+flight_count;xpath://span[contains(@class,'result_count')]
+Prepayment_Submit;xpath://input[@type='submit']
+error_msg;xpath://span[contains(text(),'Please enter a valid phone number.')]
+password_checkbox;xpath://span[@class='mdl-checkbox__tick-outline']
+checkBox_reviewpage;xpath:(//span[@class='mdl-checkbox__tick-outline'])[3]
+Insurance_text;xpath://span[contains(@class,'insurance_passenger')]
+Verify_Insurance;xpath://li[contains(text(),'Insurance')]
+Congrats_msg;xpath://div[contains(@class,'congrats')]
+##########ADD SERVICES###############
+continue_button;xpath://button[contains(text(),'Continue')]
+Passenger_Header;xpath://h6[contains(@class,'booking_header_accordion')]
+cancellation;xpath://a[contains(text(),'Cancellation')]
+select_meal;xpath://ul[contains(@for,'passengers[
+forgot_btn;class:btn_forget
+remove_button;xpath:xpath://span[contains(text(),'Remove')]
+facebook_login;name:login
+Continue_button;xpath://button[text()='Continue']
+flight_radio_btn_return;xpath://label[contains(@for,'flightreturn')]
+calender_verify;xpath:(//div[@aria-label='
+name;id:name
+Add_meals;xpath://span[contains(text(),'ADD MEALS')]
+Add_meals_modal;xpath://div[contains(@id,'extra_service_modal_meals')]
+meals_modal_header;xpath://li[@class='header']
+meals_modal_staus;xpath://li[@class='service-status']
+meals_modal_info;xpath://li[@class='service-info']
+meals_modal_done;xpath://button[contains(text(),'DONE')]
+meals_modal_done_rt;xpath://button[contains(text(),'DONE')]
+meals_add;xpath://button[contains(text(),'ADD')]
+add_button;xpath://button[contains(text(),'+')]
+minus_button;xpath://button[contains(text(),'-')]
+disabled_modal_tab;xpath:(//li[@class='service-list-item'])[2]
+modal_meals_price;xpath://div[contains(@class,'price')]
+Total_meal_price;xpath://span[@class='value']
+total_selected;xpath://img[contains(@class,'total-selected')]
+review_meal_price;xpath://span[@class='total-price']
+review_baggage_price;xpath:(//span[@class='total-price'])[2]
+sidetab_meal_price;xpath://div[div[contains(text(),'Extra Meals & Baggage')]]/div/span
+Add_baggage;xpath://span[contains(text(),'ADD EXTRA BAGGAGE')]
+Add_baggage_modal;xpath://div[contains(@id,'extra_service_modal_baggage')]
+No_service;xpath://center[contains(@class,'no-service')]
+################HOLIDAYS##############
+Make_Payment_button_Unavailable;classname:rechecking
+Add_flight_service_button;xpath://button[text()='skip']
+close_modify_search;xpath://span[contains(@class,'gm-fill_close')]
+compny;xpath:(//input[@name='company'])[2]
+top_cities;xpath://section/ul[@class='react-autosuggest__suggestions-list sections_container']/li
+wrong_password;xpath://span[contains(text(),'too')]
+search_button;xpath://button[contains(text(),'SEARCH')]
+confirmation_details;xpath://div[contains(@class,'booking_right')]/h4
+signup_header;xpath://h3[contains(text(),'Sign Up')]
+srp_cancellation;xpath:(//a[contains(text(),'Cancellation')])[1]
+sigin_button;xpath://button[contains(@class,'btn_sign_in')]
+subscribe_succesfully;xpath://h5[contains(text(),'You have subscribed successfully')]
+validation_msg;tagname:strong
+select_radio;xpath:(//span[@class='mdl-radio__outer-circle'])[
+invalid_email;xpath://span[@class='mdl-textfield__error']
+Adult_Dob;xpath:(//input[@placeholder='DD/MM/YYYY'])[
+Expiry_Month_DD;xpath://select[@id='expiryMonthCreditCard']
+return_date;name:returnDate
+############CONFIRMATION PAGE################
+navigation_pointer;xpath://a[contains(@class,'navigation react-datepicker__navigation--next')]
+JetAirways;xpath://span[contains(text(),'Airways')]
+calender_red_date;xpath:(//div[@class='react-datepicker__day high_calendar'])[1]
+flight_stops;id:stops_selection
+cont_button;xpath://button
+for_Passenger;xpath://ul[contains(@for,'passengers[
+depart_date;name:travelDate
+fare_alert_change_flights;xpath//button[contains(text(),'CHANGE FLIGHTS')]
+infant_select_dd;xpath://ul[@for='adult_economy-2']/li[
+Trip_Id;xpath:(//h4)[3]
+PNR_Id;xpath:(//h5)[1]
+################MYGOOMO##############
+facebook_password;id:pass
+close_select_flight;xpath://span[contains(@class,'gm-minus')]
+carrier_link;xpath://li[contains(text(),'Carrier')]
+gst_phno_web;id:phone_number
+duration_time;xpath://span[@class='result_flight__duration__wrapper']
+booking_button;xpath://button[@id='one_way_booking_btn'].get(1)
+gst_state;xpath://input[@value='11']
+flights;xpath://a[contains(text(),'Flights')]
+adult_select_dd;xpath://li[contains(text(),'
+Add-on_skipbutton;xpath://button[contains(@class,'continue_skip_btn')]
+country_field;id:country
+travellers_edit;xpath:(//span[contains(@class,'done_bg')])[2]
+calender_red_price;xpath://li[@class='red_ct']
+priceperAdult_maxPrice;xpath:(//span[contains(@class,'float_right')])[1]
+send_query_form;xpath://button[contains(text(),'Send Query')]
+gst_pin_code;xpath://input[@id='postal_code']
+gst_phone_number;xpath:(//input[@id='phone_number'])[2]
+depSort_return;xpath:(//label[contains(@class,'departure_time')])[2]
+travellerpage_email;xpath://input[contains(@id,'email')]
+select_child;xpath://input[@id='adult_economy-1']
+economy;xpath://span[contains(text(),'Economy')]
+meal_ongoing;xpath://i[contains(@class,'gm-caret-right')]
+Sign_up_mobNo;xpath://input[@name='password']
+Sign_up_next_btn;xpath://span[@class='mdl-button__ripple-container']
+new_LogIn_tab;xpath://li[@class='signin_signup_tab']
+new_email_signIn;name:email
+new_password;name:password
+##########FLIGHTS##############
+baggageText;xpath://div[contains(@id,'segment_baggage_popup')]
+Etihad Airways;xpath://span[contains(text()='Etihad Airways')]
+cancellationLink;xpath://a[contains(text(),'Cancellation')]
+#################SIGN IN#############
+gmail_button;class:btn_google
+sendme_a_link_button;xpath://button[contains(text(),'LINK')]
+departure_date;xpath://input[contains(@placeholder,'Depart Date')]
+navigate_month;xpath://a[contains(@class,'navigation--next')]
+priceperAdult_minPrice;xpath:(//span[contains(@class,'float_left')])[1]
+return_airlinesort;xpath:(//label[contains(text(),'Airline')])[2]
+email_text;id:contact_details.email
+SignINAtSRP;xpath://span[@class='icon_my_goomo']
+signInClick;xpath://li[@class='signin_signup_tab']
+modelwindow_done;xpath://button[contains(text(),'DONE')]
+Moify_Search;xpath://button[contains(text(),'MODIFY')]
+cancel_button_gst;xpath://button[contains(text(),'Cancel')]
+apply_copon;xpath://button[contains(text(),'Apply')]
+error_tringle;xpath://i[@class='gm gm-exclamation-triangle']
+Vistara;xpath://span[contains(text()='Vistara')]
+goomo_booking_id;xpath:(//div[2]/div/div/div/h4)[1]
+modify_search_oneway_button;class:srp-sf-oneway
+flight_radio_btn_onward;xpath://label[contains(@for,'flightforward')]
+default_country;xpath://input[@value='India']
+Currency;xpath://li[contains(text(),'
+fillup;xpath:(//input[contains(@placeholder,'DD/MM/YYYY')])[
+error_message_state;xpath://span[contains(text(),'Enter State')]
+arrSort_onward;xpath:(//label[contains(@class,'arrival_time')])[1]
+flight_name_tab;xpath://li[contains(text(),' ')]
+pwd_next_button;xpath://div[@id='passwordNext']
+modl_comments;xpath:(//textarea[@placeholder='Let us know more about your query'])[1]
+d-o-b;xpath://input[@placeholder='DD/MM/YYYY']
+sprt_tab_flights;xpath://a[contains(@class,'mdl-tabs')]
+modify_search_roundtrip_button;class:srp-sf-return
+expandFare;xpath://i[contains(@class,'gm-caret-right')]
+traveller_dob;xpath:(//label[contains(text(),'birth')])[
+flight_details_bar;xpath://div[p[@class='flights_timing']]
+Mr;xpath:(//li[@class='mdl-menu__item'])[2]
+Make_Payment_button;xpath:(//span[@class='mdl-button__ripple-container'])[3]
+Currency_INR;xpath://li[contains(text(),'INR')]
+baggage_header;xpath://input[contains(@id,'passengers[
+arrival_sort;xpath://label[contains(@class,'arrival')]
+review_page;xpath://h6[contains(text(),'Confirm')]
+previous_tab;xpath://a[@class='mdl-tabs__tab is-confirm']
+password;name:password
+holiday_page;xpath://a[contains(text(),'
+select_to_segment;xpath://span[contains(text(),'
+Expiry_year_Unavailable;classname:oops_message
+srt_tab;xpath://a[contains(text(),'AIRLINES')]
+flights_count;classname:result_count
+departure_city;xpath://input[contains(@placeholder,'Departure City')]
+Oops_flights_unavailable;classname:flight_not_found
+fare_alert;xpath://button[contains(text(),'CONTINUE')]
+modl_email;xpath://input[@id='modal_email']
+swap;xpath://i[contains(@class,'gm gm-returnflight cursor_pointer')]
+airline_names;xpath://li[@class='airline_details__name']
+state_field;id:state
+forgot_password_email_field;id:email
+airlineSort_ow;xpath:(//label[contains(@class,'airline_holder')])[1]
+confirmation_print_ticket;xpath://a[@class='important_btn']
+confirmation_page_paxcount;xpath://div[@class='passenger_detail']/div/h3
+welcome_user;xpath://span[contains(text(),'Hi,')]
+dateChangLink;xpath://a[contains(text(),'Date Change')]
+arrSort_return;xpath:(//label[contains(@class,'arrival_time')])[2]
+Expiry_Month;xpath:(//option[text()='May (05)'])[1]
+address_field;id:address
+modl_number;xpath://input[@id='modal_mobile']
+for_jet_airways;xpath://span[contains(text(),'Jet Airways')]
+stopsPane;xpath:(//h6[contains(@class,'booking_header_accordio')])[2]
+tripDuration;xpath://h6[contains(text(),'Trip')]
+select_city;xpath://span[contains(@class,'default-suggestion')]
+FlightCharge;xpath://h4[@class='one_way_price']
+priceperAdultPane;xpath:(//h6[contains(@class,'booking_header_accordio')])[1]
+edit_on_tab;xpath:(//i[@class='gm gm-check'])[1]
+tnc;xpath://a[contains(text(),'Terms')]
+gst_address;xpath://input[@id='address']
+add_gst_number;xpath://span[contains(text(),'Add GST Identification Number')]
+for_confirmation_button;xpath://button[contains(text(),'Continue')]               
+flights_product;xpath://i[contains(@class,'gm-flights')]
+modl_compny;xpath:(//input[@name='company'])[1]
+passenger_title_box_Unavailable;classname:oops_message
+click_send_query;xpath:(//button[contains(text(),'Send Query')])[1]
+password_optional;xpath://label[contains(text(),'Password (Optional)')]
+continue_as_guest;xpath://div[contains(text(),'Skip this to continue as guest')]
+SignIn_button;xpath://a[contains(@class,'sign_in_btn')]
+###########GST_FIELDS####################################
+user_goomo_password;xpath://input[@id='password']
+#############EXCEPTION###############
+all_NonrefIcons;xpath://span[contains(text(),'Non')]
+price_header;xpath://div[@class='priceRange-HeaderTitle']
+flight_cancellation_content;xpath://div[contains(@class,'flight_cancellation_content')]
+SignInpage_Continue_Button_Unavailable;classname:oops_message
+continue_button;xpath://button[text()='CONTINUE']
+modl_checkbox;xpath://span[contains(text(),'I agree to recieve updates & offers from Goomo')]
+edit_option_add_service;xpath://a[contains(@class,'mdl-tabs__tab is-confirm')][2]
+city_filed;id:city
+duration_sort;xpath://label[contains(@class,'duration')]
+price_calendar_date;xpath://input[@type='text']
+################ADDONS PAGE################
+form_checkbox;xpath:(//span[contains(@class,'mdl-checkbox__ripple-container')])
+AirIndia;xpath://span[contains(text(),'India')]
+tab;xpath://h3
+error_msg;xpath://span[contains(@class,'error_span')]
+departure_time;xpath://span[@class='result_flight__departure_and_stops__departure min_height_66']
+subscribe_button;id:subscribe_btn
+infant_dd;id:adult_economy-2
+classtype;xpath://span[contains(text(),'
+text_count;xpath:(//li[contains(text(),'
+allianceCheckbox;xpath://label[contains(@for,'alliance_')]
+Credit_card_number_Unavailable;classname:oops_message
+AutoSuggestedCity;xpath://span[contains(text(),'
+goomo_profile_pic;xpath://div[@class='profile_pic_wrapper']
+miss2;xpath:(//li[contains(text(),'Miss')])[3]
+passenger_surname;id:passengers[
+oneway;xpath://button[contains(text(),'One-Way')]
+privacy_policy;xpath://a[contains(text(),'Privacy Policy')]
+terms_conditions;xpath://a[contains(text(),'Terms & Conditions')]
+passport;xpath://input[@id='passengers[
+Email_InputBox_Unavailable;classname:oops_message
+refundable_checkbox;xpath://span[contains(text(),'Only show refundable flights')]
+select_srt_flight;xpath:(//a[contains(@class,'mdl-tabs')])[2]
+modify_searach_fromCity;xpath:(//input[contains(@class,'large_input_02')])[1]
+refundable_icon;xpath:(//div[contains(text(),'Refundable')])[1]
+#############PRE_PAYMENT#################
+all_refIcons;xpath://span[contains(text(),'Refundable')]
+send_query_button;xpath:(//button[contains(@class,'send-query')])
+gst_number;xpath://input[@id='gst_number']
+gst_city_name;xpath://input[@id='city']
+top_cities_list;xpath://section/ul[@class='react-autosuggest__suggestions-list sections_container']/li
+baggage_content;xpath://div[@class='terms_text']
+price_sort;xpath://label[contains(@class,'results_sorting__price sortable_label')]
+recheck_fares;classname:rechecking
+gmail_emailid;xpath://input[@type='email']
+active_tab;xpath://a[@class='mdl-tabs__tab is-active']
+Modify_Search;xpath://button[contains(text(),'MODIFY')]
+price_sort_rt;xpath://h4/span[contains(text(),' ')]
+user_email;xpath://input[@id='email']
+forgetpassword_tab_email;xpath://input[@placeholder='Email']
+continue_button_reviewpage;xpath://button[contains(text(),'CONTINUE')]
+onwardtrip_arrival;xpath:(//label[contains(text(),'Arriv')])[1]
+today_date;xpath://div[contains(@class,'react-datepicker__day--today mid_calendar')]
+cancellationText;xpath://div[contains(@id,'cancellation_popup_id')]
+Add-on_Continuebutton;xpath://button[contains(@class,'continue_b_m_btn')]
+wrong_coupn_message;xpath://span[contains(text(),'invalid')]
+calender_green_date;xpath:(//div[@class='react-datepicker__day low_calendar'])[1]
+traveller_continue_button;xpath://button[contains(text(),'CONTINUE')]
+number;id:mobile
+Continue_skipbutton;xpath://button[contains(@class,'continue_skip_btn')]
+returnTimePane;xpath:(//h6[contains(@class,'header text_uppercase float_left booki')])[4]
+cvv_numberbox;id:CVVNumberCreditCard
+my_goomo_message;xpath://span[contains(text(),'My GOOMO')]
+gmail_signin;id:signIn
+price_calendar;classname:results-PriceCalendarLink
+################RAZOR_PAY_PAYMENT###############
+Razor_pay_form;xpath://div[@id='content']//div[label[contains(text(),'CVV')]]
+Card_option;xpath://div[@tab='card']
+Card_number;xpath://input[@id='card_number']
+Card_expiry;xpath://input[@id='card_expiry']
+Card_holder_name;xpath://input[@id='card_name']
+Card_cvv_number;xpath://div[label[contains(text(),'CVV')]]
+Pay_button;xpath://button[@id='footer']
+RazorPay_submit_button;xpath://button[@class='success']
+RazorPay_CVV;xpath://div[@class='elem elem-cvv mature invalid']/input
+confirmation_booking;xpath://strong[contains(text(),'confirming your payment')]
+goomo_booking_id;xpath://h6[contains(@text(),'Goomo Booking Id')]
+Razor_payContact_No;xpath://input[@id='contact']
+Razor_payMail_id;xpath://input[@id='email']
+RazorPay_PayByCard;xpath://span[contains(text(),'Pay by Card')]
+################FLIGHT_REVIEW_PAGE##############
+layoverTimepane;xpath:(//h6[contains(@class,'booking_header_accordio')])[6]
+DOB;xpath://input[contains(@placeholder,'DD/MM/YYYY')]
+gmail_password_login;xpath://input[@type='password']
+next_button;xpath://div[@id='identifierNext']
+facebook_button;class:btn_face
+airlineFilter;xpath://span[contains(text(),'
+cvv_numberbox_Unavailable;classname:oops_message
+side_panel_bar;xpath://div[@class='fare_summary_group']
+select_srt_tab;xpath://a[contains(text(),'AIRLINES')]
+################MULITICITY SRP###################
+select_mul_tab;xpath://button[@class='hp-fs-multicity mdl-button mdl-js-button ']
+####################AGENTBOOKINGHOTELS######################
+Agent_booking_button;xpath:(//a[contains(text(),'Agent Booking')])[2]
+start_new_booking_button;xpath://a[contains(text(),'Start New Booking')]
+hotel_button;xpath:(//i[@class='gm gm-hotels'])[2]
+select_city_button;xpath:(//a[contains(@class,'mdl-tabs__tab mdl-layout__')])[2]
+city_name;xpath://input[@placeholder='Enter City or Hotel Name']
+auto_suggest;xpath://ul[@class='popularCitiesWrap']/li
+popular_cities;xpath://ul[@class='popularCitiesWrap']/li
+enter_city_name;xpath://input[@placeholder='Enter City or Hotel Name']
+cilck_city_name;xpath://span[@class='highlight-suggestion']
+travel_date;xpath://input[@name='travelDate']
+date_pick;xpath://div[@class='react-datepicker__day react-datepicker__day--today']
+select_date;xpath://a[contains(@class,'react-datepicker__navigation--next')]
+date_modify_click;xpath:(//div[@aria-label='day-21'])[
+select_date_ten;xpath://div[@aria-label='day-10']
+agent_button_search;xpath://span[@class='mdl-button__ripple-container']
+agent_book_button;xpath://button[contains(text(),'Book')]
+check_availability;xpath://button[contains(text(),'CHECK AVAILABILITY')]
+checkIn_date;xpath://input[@placeholder='Check-In Date']
+next_month_button;xpath://a[@class='react-datepicker__navigation react-datepicker__navigation--next']
+select_modify_date;xpath://div[@aria-label='day-19']
+book_now_button;xpath:(//a[contains(text(),'BOOK NOW')])[1]
+review_button;xpath://button[contains(text(),'continue')]
+email_box;xpath://input[@id='contact_details.email']
+email_id;xpath://input[@id='contact_details.email']
+countinue_button;xpath://button[contains(text(),'CONTINUE')]
+guest_title;xpath://input[@id='guests_details.guest.title']
+menu_button;xpath:(//li[@class='mdl-menu__item'])[1]
+guest_name;xpath://input[@id='guests_details.guest.name']
+guest_surname;xpath://input[@id='guests_details.guest.surname']
+guest_email;xpath://input[@id='guests_details.guest.email']
+guest_phone;xpath://input[@id='guests_details.guest.phone']
+continue_button_trvl;xpath://button[contains(text(),'continue')]
+prepayment_text;xpath://input[@type='text']
+prepayment_list;xpath://li[@class='mdl-menu__item']
+payment_cash;xpath://li[contains(text(),'Cash')]
+pending_status;xpath://span[contains(text(),'PENDING')]
+approved_edit;xpath://a[contains(text(),'Edit')]
+agent_booking_status;id:status
+rooms_list;xpath://option
+approved_button;xpath://option[contains(text(),'Approved')]
+reciept_num;id:receipt_no
+commit_button;name:commit
+confirmed_button;xpath://span[contains(text(),'CONFIRMED')]
+user_id_agent;id:email
+password_agent;id:password
+name_agent;name:commit
+agent_booking_button;xpath:(//a[contains(text(),'Agent Booking')])[2]
+payment_mode;xpath:(//input[contains(@class,'mdl-textfield__input')])[6]
+payment_list;xpath://ul[@class='mdl-menu mdl-menu--bottom-left mdl-js-menu']
+###################MY GOOMO##################################################
+my_goomo_icon;class:header-goomo-logo
+signup_email_id;css:input.icon_email
+signup_password;css:input.icon_lock[type='password']
+signup_button;xpath://button[text()='Sign Up']
+signin_tab;xpath://li[contains(text(),'LOG IN')]
+signin_button;xpath://button[text()='Sign In']
+profile_pic;css:div.profile_pic_wrapper
+bookings_tab;css:i.gm.gm-bookings
+profile_dropdown;xpath://i[contains(@class,'gm-mygoomo-profile')]
+rewards_tab;xpath://i[contains(@class,'gm-rewards')]
+settings_tab;css:i.gm.gm-settings
+user_goomo_dropdown;xpath://div[contains(@class,'cursor_pointer')][1]
+unverified_traingle;xpath://i[contains(@class,'gm-alert gm_accent_color_text')]
+email_id_not_verified;xpath:li.myGoomo_list_item.email_not_verified
+mygoomo_change_password_button;xpath://button[text()='Change Password']
+password_change_dialog;xpath://div[contains(@class,'common-modal--visible')]
+close_password_change;xpath://span[contains(@class,'gm-fill_close')]
+#########################PAYBACK######################
+payback_btn;classname:payback_img
+payback_no;id:paybackNumber
+payback_pin;id:paybackPin
+payback_check_btn;classname:payback_id_check_btn
+avaialble_points;xpath:(//span[@class='payback_details'])[2]
+payback_Account_page_mob;xpath:(//span[@class='payback_details'])[1]
+change_payback;xpath://span[@class='change_payback_id']
+prepayment_redeem_amt;xpath://input[@id='redeem_amount']
+prepayment_redeem_btn;xpath:(//span[@class='mdl-button__ripple-container'])[1]
+payback_tab;xpath://img[@class='payback_img']
+payback_error_msg;xpath://span[contains(text(),'Enter a valid 10-digit mobile or 16-digit Payback ')]
+payback_forgot_pin;xpath://a[@class='payback-forget-pin']
+payback_incorrectno_errormsg;xpath://span[contains(text(),'PAYBACK account ')]
+payback_incorrectpin_errormsg;xpath://span[contains(text(),'Membership is blocked')]
+############################PES#############################################
+card_option;xpath://span[contains(text(),'CREDIT / DEBIT CARD')]
+netBanking_option;xpath://span[contains(text(),'NET BANKING')]
+mobile_wallets_option;xpath://span[contains(text(),'MOBILE WALLETS')]
+gift_cards;xpath://span[contains(text(),'GIFT CARDS')]
+Payback_option;xpath://span[contains(text(),'PAYBACK')]
+American_Express;xpath://img[contains(@alt,'American Express')]
+Master_card;xpath://img[contains(@alt,'Mastercard')]
+Maestro;xpath://img[contains(@alt,'Mastero')]
+Visa;xpath://img[contains(@alt,'Visa')]
+DC;xpath://img[contains(@alt,'DC')]
+RuPay;xpath://img[contains(@alt,'Rupay')]
+payByCardText;xpath://div[contains(@class,'pay_using_credit_debit')]
+card_Number;xpath://input[@id='cardNumber']
+card_Holder_name;xpath://input[@id='cardHolderName']
+card_expiryDate;xpath://input[@id='expiryDate']
+cvv_number;xpath://input[@id='cvv']
+PayByNetBanking;xpath://div[contains(text(),'Pay using Net Banking')]
+Hdfc_option;xpath://img[contains(@alt,'HDFC')]
+Citi_option;xpath://img[contains(@alt,'CITI')]
+KKBK_option;xpath://img[contains(@alt,'KKBK')]
+Axis_option;xpath://img[contains(@alt,'UTIB')]
+YesBank_option;xpath://img[contains(@alt,'YESB')]
+StateBank_option;xpath://img[contains(@alt,'SBIN')]
+ChooseOtherBank_option;xpath://input[contains(@placeholder,'Choose Other Bank')]
+defaultBank_listdropdown;xpath://ul[contains(@class,'default-bank-list')]
+Bank_list_names;xpath://span[contains(@class,'defaultBankList')]
+Pay_button_pes;xpath://span[contains(@class,'mdl-button__ripple-container')]
+Failure_Button;xpath://button[contains(text(),'Failure')]
+SelectBank_tickButton;xpath://img[@class='tick']
+Payment_errorText;xpath://div[contains(@class,'unsuccessful_error')]
+Payment_errorText_NetBanking;xpath://div[contains(@class,'unsuccessful_error')]
+freecharge_Option;xpath://span[contains(text(),'Freecharge')]
+Mobikwik_Option;xpath://span[contains(text(),'Mobikwik')]
+PayZapp_option;xpath://span[contains(text(),'PayZapp')]
+payUmoney_option;xpath://span[contains(text(),'PayUMoney')]
+olaMoney_option;xpath://span[contains(text(),'Ola Money')]
+Jiomoney_option;xpath://span[contains(text(),'JioMoney')]
+VodafoneMpaisa_option;xpath://span[contains(text(),'Vodafone mPesa')]
+wallet_EmailTextBox;xpath://input[contains(@name,'email')]
+contactNoTextBox;xpath://input[contains(@name,'contact')]
+wallet_submitButton;xpath://button[contains(text(),'Submit')]
+giftCard_headerText;xpath://p[contains(@class,'card_header')]
+giftcard_inputBox;xpath://input[@id='voucherGramFormsList[0]']
+Redem_button;xpath://button[contains(text(),'Redeem')]
+giftCard_errorMsg;xpath://span[contains(@class,'mdl-textfield__error')]
+Payback_no;xpath://input[@id='paybackNumber']
+Payback_pin;xpath://input[@id='paybackPin']
+payback_applyButton;xpath://button[contains(text(),'Apply')]
+Pyaback_Redemam0unt_text;xpath://p[contains(@class,'payback-redeem-text')]
+Payback_account_infoText;xpath://p[contains(@class,'payback-account-info')]
+redemAmount_OPtion;xpath://input[@id='redeem_amount']
+payback_applyButton;xpath://span[contains(@class,'mdl-button__ripple-container')]
+Payback_redemSuccessText;xpath://div[contains(@class,'success-amount')]
+redem_successMessage;xpath://div[contains(text(),'Congratulations! Your Payment is complete')]
+payback_savedePrice;xpath://span[contains(@class,'saved_price')]
+MakePayment_TravellerPage;xpath://span[contains(@class,'mdl-button__ripple-container')]
+Payback_pageText;xpath://h6[contains(text(),'Maximise Savings! Redeeming your PAYBACK points now ')]
+payment_mode_text;xpath://div[text()='Choose Your Payment mode']
+pay_button;xpath://button[@type='button']
+MyGoomoLogo;xpath://span[contains(@class,'icon_my_goomo')]
+Sign_In_Tab;xpath://li[contains(text(),'LOG IN')]
+MyGoomo_email;xpath://input[contains(@name,'email')]
+MyGoomo_password;xpath://input[contains(@name,'password')]
+MyGoomo_SignIn_Button;xpath:(//span[contains(@class,'mdl-button__ripple-container')])[1]
+MoCash;xpath://span[contains(text(),'MOCASH')]
+MoCash_header;xpath:(//h3[contains(text(),'MoCash')])[1]
+MoCash_AvailableCash;xpath://span[span[contains(text(),'MoCash Available')]]/span[2]/span
+MoCash_UsableCash;xpath://span[span[contains(text(),'Usable Cash')]]/span[2]/span
+MoCashReedem_button;xpath:(//button[contains(text(),'Redeem')])[1]
+PaymentPage_totalPrice;xpath://li[contains(@class,'total-price ')]/span[2]/span
+MoCash_Reedem_info;xpath://span[contains(@class,'redeemed_info_container')]
+Redem_removeButton;xpath://button[contains(text(),'REMOVE')]
+MoCash_deductPrice;xpath://li[span[contains(text(),'MoCash')]]/span[2]/span
+MoCashX_header;xpath://h3[contains(text(),'MoCashX')]
+MoCashX_AvailableAmount;xpath://span[span[contains(text(),'MoCashX Available')]]/span[2]/span
+MoCashX_Amounti/pBox;xpath://input[@id='refund_cash']
+MoCashX_RedeemButton;xpath:(//span[contains(@class,'mdl-button__ripple-container')])[2]
+MoCashX_RedeemInfo;xpath://span[contains(@class,'redeemed_info_container')]
+MoCashX_DeductAmount;xpath://li[span[contains(text(),'MoCashX')]]/span[2]/span
+MoCashX_RemoveButton;xpath://button[contains(text(),'REMOVE')]
+MoCashX_AvailableBalance;xpath://span[contains(@class,'available_balance')]/span
+PayRemainingAmount;xpath://div[contains(@class,'remaining-amount')]/span
+MoCashXErrorMessage;xpath://div[contains(@class,'error-message')]
